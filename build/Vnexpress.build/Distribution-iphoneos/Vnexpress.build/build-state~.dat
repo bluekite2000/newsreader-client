@@ -1,0 +1,1137 @@
+TVnexpress
+v7
+r0
+t319155885.521653
+cCheck dependencies
+cCpResource build/Distribution-iphoneos/Vnexpress.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Info.plist Vnexpress-Info.plist
+cCompileXIB /Users/datlap/Desktop/vne_iphone/MainWindow.xib
+cCompileXIB /Users/datlap/Desktop/vne_iphone/RootViewController.xib
+cCopyPNGFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Icon.png Icon.png
+cCopyPlistFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Data.plist Data.plist
+cCpResource build/Distribution-iphoneos/Vnexpress.app/testimage.jpg testimage.jpg
+cCpResource build/Distribution-iphoneos/Vnexpress.app/styles.css styles.css
+cCopyPNGFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Default.png Default.png
+cProcessPCH /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch.gch Vnexpress_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch.gch Vnexpress_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/main.o /Users/datlap/Desktop/vne_iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParserAppDelegate.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParser.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedInfo.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedItem.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+XMLEntities.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/RootViewController.o /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/DetailTableViewController.o /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/GTMNSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSDate+InternetDateTime.o /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/AboutViewController.o /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Reachability.o /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/main.o /Users/datlap/Desktop/vne_iphone/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParserAppDelegate.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParser.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress normal armv6
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedInfo.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedItem.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+XMLEntities.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/RootViewController.o /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/DetailTableViewController.o /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/GTMNSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSDate+InternetDateTime.o /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/AboutViewController.o /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Reachability.o /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress normal armv7
+cCreateUniversalBinary /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress normal "armv6 armv7"
+cGenerateDSYMFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app.dSYM /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress
+cProcessProductPackaging "/Users/datlap/Library/MobileDevice/Provisioning Profiles/2AB04A70-C081-4EA6-81AC-73937DA28720.mobileprovision" /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/embedded.mobileprovision
+cTouch /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+cProcessProductPackaging /Users/datlap/Desktop/vne_iphone/Entitlements.plist /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent
+cCodeSign /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+cValidate /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004CC10E6A000000000000353E
+t1287720554
+s13630
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC10E6A0000000000001A58
+t1287720554
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC10E7900000000000B0C10
+t1287720569
+s723984
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/AvailabilityMacros.h
+c000000004CB3FBB8000000000000673C
+t1286863800
+s26428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FBB800000000000031E9
+t1286863800
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E4790000000000001533
+t1286857849
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/ifaddrs.h
+c000000004CB3E4840000000000000782
+t1286857860
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netdb.h
+c000000004CB3E4A0000000000000307F
+t1286857888
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netinet/in.h
+c000000004CBFACDD0000000000005462
+t1287630045
+s21602
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netinet6/in6.h
+c000000004CBFACCD0000000000004F61
+t1287630029
+s20321
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACD80000000000005A69
+t1287630040
+s23145
+
+N/Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.h
+c000000004D547DA90000000000000056
+t1297382825
+s86
+i<UIKit/UIKit.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m
+c000000004D559E810000000000000CAC
+t1297456769
+s3244
+i"AboutViewController.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.h
+c000000004D5458AB0000000000000143
+t1297373355
+s323
+i<UIKit/UIKit.h>
+i"MWFeedItem.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m
+c000000004D547DAA000000000000152E
+t1297382826
+s5422
+i"DetailTableViewController.h"
+i"NSString+HTML.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/GTMDefines.h
+c000000004D2E7CD40000000000002E57
+t1294892244
+s11863
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+i<Availability.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.h
+c000000004D1A2CCF00000000000008F0
+t1293561039
+s2288
+i<Foundation/Foundation.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m
+c000000004D1A2CCF00000000000036BB
+t1293561039
+s14011
+i"GTMDefines.h"
+i"GTMNSString+HTML.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.h
+c000000004D49FC0E00000000000001A0
+t1296694286
+s416
+i<Foundation/Foundation.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m
+c000000004D49FC0E0000000000000574
+t1296694286
+s1396
+i"MWFeedInfo.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.h
+c000000004D49FC0E0000000000000449
+t1296694286
+s1097
+i<Foundation/Foundation.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m
+c000000004D4A048E00000000000008A9
+t1296696462
+s2217
+i"MWFeedItem.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.h
+c000000004D50785C0000000000000DE6
+t1297119324
+s3558
+i<Foundation/Foundation.h>
+i"MWFeedInfo.h"
+i"MWFeedItem.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m
+c000000004D548831000000000000813A
+t1297385521
+s33082
+i"MWFeedParser.h"
+i"MWFeedParser_Private.h"
+i"NSString+HTML.h"
+i"NSDate+InternetDateTime.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.h
+c000000004D547DAA0000000000000146
+t1297382826
+s326
+i<UIKit/UIKit.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m
+c000000004D547DAA00000000000002DB
+t1297382826
+s731
+i"MWFeedParserAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser_Private.h
+c000000004D49FC0E0000000000000546
+t1296694286
+s1350
+
+N/Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.h
+c000000004D49FC0E00000000000001C0
+t1296694286
+s448
+i<Foundation/Foundation.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m
+c000000004D4AF762000000000000117D
+t1296758626
+s4477
+i"NSDate+InternetDateTime.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.h
+c000000004D49FC0E00000000000001EE
+t1296694286
+s494
+i<Foundation/Foundation.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m
+c000000004D4C6D7A000000000000277E
+t1296854394
+s10110
+i"NSString+HTML.h"
+i"GTMNSString+HTML.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.h
+c000000004D49FC0E0000000000000139
+t1296694286
+s313
+i<Foundation/Foundation.h>
+i"NSString+HTML.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m
+c000000004D49FC0E000000000000014F
+t1296694286
+s335
+i"NSString+XMLEntities.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/Reachability.h
+c000000004D547DAA0000000000000A3A
+t1297382826
+s2618
+i<UIKit/UIKit.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/Reachability.m
+c000000004D547DAA0000000000005060
+t1297382826
+s20576
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i"Reachability.h"
+i<SystemConfiguration/SCNetworkReachability.h>
+
+N/Users/datlap/Desktop/vne_iphone/Classes/RootViewController.h
+c000000004D547DAA00000000000001FA
+t1297382826
+s506
+i<UIKit/UIKit.h>
+i"MWFeedParser.h"
+
+N/Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m
+c000000004D5598190000000000002E54
+t1297455129
+s11860
+i"RootViewController.h"
+i"NSString+HTML.h"
+i"MWFeedParser.h"
+i"DetailTableViewController.h"
+i"AboutViewController.h"
+i"Reachability.h"
+
+N/Users/datlap/Desktop/vne_iphone/Data.plist
+c0000000049CFAE33000000000000080C
+t1238347315
+s2060
+
+N/Users/datlap/Desktop/vne_iphone/Default.png
+c000000004D51A3CF0000000000002078
+t1297195983
+s8312
+
+N/Users/datlap/Desktop/vne_iphone/Entitlements.plist
+c000000004D55B6DE0000000000000221
+t1297463006
+s545
+
+N/Users/datlap/Desktop/vne_iphone/Icon.png
+c000000004D4AFD9C00000000000017EB
+t1296760220
+s6123
+
+N/Users/datlap/Desktop/vne_iphone/MainWindow.xib
+c000000004D1A2CCF0000000000002F54
+t1293561039
+s12116
+
+N/Users/datlap/Desktop/vne_iphone/RootViewController.xib
+c000000004D2CC7E40000000000002B9E
+t1294780388
+s11166
+
+N/Users/datlap/Desktop/vne_iphone/Vnexpress_Prefix.pch
+c000000004D1A2CCF000000000000014A
+t1293561039
+s330
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+t1297463085
+s544
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app.dSYM
+t1297463084
+s102
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Data.plist
+t1297463076
+s334
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Default.png
+t1297463076
+s9794
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Icon.png
+t1297463076
+s6448
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Info.plist
+t1297463074
+s881
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/MainWindow.nib
+t1297463075
+s2461
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/PkgInfo
+t1297463074
+s8
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/ResourceRules.plist
+t1297463074
+s485
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/RootViewController.nib
+t1297463075
+s2434
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress
+t1297463084
+s255024
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/embedded.mobileprovision
+t1297463084
+s7035
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/styles.css
+t1297463076
+s111
+
+N/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/testimage.jpg
+t1297463076
+s14777
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/AboutViewController.o
+t1297463082
+s44496
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/DetailTableViewController.o
+t1297463081
+s54240
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/GTMNSString+HTML.o
+t1297463081
+s29976
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedInfo.o
+t1297463080
+s14264
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedItem.o
+t1297463080
+s19892
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParser.o
+t1297463081
+s81896
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParserAppDelegate.o
+t1297463080
+s50380
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSDate+InternetDateTime.o
+t1297463081
+s14412
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+HTML.o
+t1297463081
+s21480
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+XMLEntities.o
+t1297463080
+s7028
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Reachability.o
+t1297463082
+s37564
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/RootViewController.o
+t1297463081
+s79688
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress
+t1297463082
+s124028
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress.LinkFileList
+c000000004D55B72200000000000006BE
+t1297463074
+s1726
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/main.o
+t1297463080
+s6500
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/AboutViewController.o
+t1297463084
+s44488
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/DetailTableViewController.o
+t1297463083
+s54168
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/GTMNSString+HTML.o
+t1297463083
+s29952
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedInfo.o
+t1297463082
+s14252
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedItem.o
+t1297463082
+s19888
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParser.o
+t1297463083
+s82840
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParserAppDelegate.o
+t1297463082
+s50380
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSDate+InternetDateTime.o
+t1297463083
+s14584
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+HTML.o
+t1297463083
+s21260
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+XMLEntities.o
+t1297463083
+s7024
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Reachability.o
+t1297463084
+s37176
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/RootViewController.o
+t1297463083
+s79792
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress
+t1297463084
+s123952
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress.LinkFileList
+c000000004D55B72200000000000006BE
+t1297463074
+s1726
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/main.o
+t1297463082
+s6476
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent
+t1297463084
+s455
+
+N/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/datlap/Desktop/vne_iphone/main.m
+c000000004D1A2CCF0000000000000666
+t1293561039
+s1638
+i<UIKit/UIKit.h>
+
+N/Users/datlap/Desktop/vne_iphone/styles.css
+c000000004D34C11C000000000000006F
+t1295302940
+s111
+
+N/Users/datlap/Desktop/vne_iphone/testimage.jpg
+c000000004D2BC11A00000000000039B9
+t1294713114
+s14777
+
+N/Users/datlap/Library/MobileDevice/Provisioning Profiles/2AB04A70-C081-4EA6-81AC-73937DA28720.mobileprovision
+c000000004D55B5640000000000001B7B
+t1297462628
+s7035
+
+N/var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch.gch
+t1297463080
+s9803480
+
+N/var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch.gch
+t1297463080
+s10262232
+
+NVnexpress-Info.plist
+c000000004D55B31A00000000000003BE
+t1297462042
+s958
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319155874#319155874#0(0"0(0#1#0"8620574176#0"0#
+
+CCodeSign /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+s319155884.531687
+e319155885.062966
+r1
+xCodeSign
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+lSLF07#2@50"CodeSign build/Distribution-iphoneos/Vnexpress.app319155884#319155885#0(0"0(0#0#74"/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app8616232192#643"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: dat nguyen" --resource-rules=/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/ResourceRules.plist --entitlements /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/AboutViewController.o /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155881.887450
+e319155882.051115
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/AboutViewController.o
+x/Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m319155881#319155882#0(0"0(0#0#62"/Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m8602666336#1823"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/AboutViewController.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/DetailTableViewController.o /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155881.335472
+e319155881.639278
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/DetailTableViewController.o
+x/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController tableView:cellForRowAtIndexPath:]':
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: 'DetailTableViewController' may not respond to '-addWebViewToTable:::'
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: (Messages without a matching method signature
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: will be assumed to return 'id' and accept
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: '...' as arguments.)
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController addWebViewToTable:::]':
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:171: warning: local declaration of 'summaryString' hides instance variable
+lSLF07#2@76"Compile /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319155881#319155881#0(938"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController tableView:cellForRowAtIndexPath:]':/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: 'DetailTableViewController' may not respond to '-addWebViewToTable:::'/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: (Messages without a matching method signature/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: will be assumed to return 'id' and accept/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: '...' as arguments.)/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController addWebViewToTable:::]':/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:171: warning: local declaration of 'summaryString' hides instance variable3(22@70"'DetailTableViewController' may not respond to '-addWebViewToTable:::'319155881#147#154#0(6@68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319075626#144#0#144#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319155881#301#129#0(6@68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319075626#144#0#144#0#0"0(22@60"Local declaration of 'summaryString' hides instance variable319155881#794#144#0(6@68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319075626#171#0#171#0#0"0(0#0#68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m8609575840#1835"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/DetailTableViewController.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/GTMNSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155881.504706
+e319155881.716344
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/GTMNSString+HTML.o
+x/Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m319155881#319155881#0(0"0(0#0#59"/Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m8620984288#1817"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/GTMNSString+HTML.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedInfo.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155880.445981
+e319155880.588829
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedInfo.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m319155880#319155880#0(0"0(0#0#53"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m8606452928#1805"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedInfo.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedItem.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155880.588924
+e319155880.774751
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedItem.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m319155880#319155880#0(0"0(0#0#53"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m8599820704#1805"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedItem.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParser.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155880.379884
+e319155881.504597
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParser.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m319155880#319155881#0(0"0(0#0#55"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m8608717888#1809"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParser.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParserAppDelegate.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155880.244806
+e319155880.445869
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParserAppDelegate.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m319155880#319155880#0(0"0(0#0#66"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m8615287968#1831"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/MWFeedParserAppDelegate.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSDate+InternetDateTime.o /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155881.716448
+e319155881.887347
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSDate+InternetDateTime.o
+x/Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m319155881#319155881#0(0"0(0#0#66"/Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m8609567456#1831"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSDate+InternetDateTime.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155881.639547
+e319155881.969326
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+HTML.o
+x/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m: In function '-[NSString(HTML) flattenHTML]':
+o/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m:332: warning: control reaches end of non-void function
+lSLF07#2@64"Compile /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m319155881#319155881#0(215"/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m: In function '-[NSString(HTML) flattenHTML]':/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m:332: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function319155881#103#112#0(6@56"/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m318547194#332#0#332#0#40"control reaches end of non-void function0(0#0#56"/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m8616317760#1811"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+HTML.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+XMLEntities.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155880.775069
+e319155880.847365
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+XMLEntities.o
+x/Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m319155880#319155880#0(0"0(0#0#63"/Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m8620682560#1825"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/NSString+XMLEntities.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Reachability.o /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155881.969425
+e319155882.530549
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Reachability.o
+x/Users/datlap/Desktop/vne_iphone/Classes/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m319155881#319155882#0(0"0(0#0#55"/Users/datlap/Desktop/vne_iphone/Classes/Reachability.m8599470176#1809"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Reachability.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/RootViewController.o /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155880.847456
+e319155881.335375
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/RootViewController.o
+x/Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m319155880#319155881#0(0"0(0#0#61"/Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m8616405344#1821"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/main.o /Users/datlap/Desktop/vne_iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155880.234425
+e319155880.379790
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/main.o
+x/Users/datlap/Desktop/vne_iphone/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/datlap/Desktop/vne_iphone/main.m319155880#319155880#0(0"0(0#0#39"/Users/datlap/Desktop/vne_iphone/main.m8616804352#1785"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/main.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/AboutViewController.o /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155883.962753
+e319155884.140689
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/AboutViewController.o
+x/Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m319155883#319155884#0(0"0(0#0#62"/Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m8609415136#1823"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/AboutViewController.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/AboutViewController.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/DetailTableViewController.o /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155883.349719
+e319155883.622247
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/DetailTableViewController.o
+x/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController tableView:cellForRowAtIndexPath:]':
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: 'DetailTableViewController' may not respond to '-addWebViewToTable:::'
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: (Messages without a matching method signature
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: will be assumed to return 'id' and accept
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: '...' as arguments.)
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController addWebViewToTable:::]':
+o/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:171: warning: local declaration of 'summaryString' hides instance variable
+lSLF07#2@76"Compile /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319155883#319155883#0(938"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController tableView:cellForRowAtIndexPath:]':/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: 'DetailTableViewController' may not respond to '-addWebViewToTable:::'/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: (Messages without a matching method signature/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: will be assumed to return 'id' and accept/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:144: warning: '...' as arguments.)/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m: In function '-[DetailTableViewController addWebViewToTable:::]':/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m:171: warning: local declaration of 'summaryString' hides instance variable3(22@70"'DetailTableViewController' may not respond to '-addWebViewToTable:::'319155883#147#154#0(6@68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319075626#144#0#144#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319155883#301#129#0(6@68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319075626#144#0#144#0#0"0(22@60"Local declaration of 'summaryString' hides instance variable319155883#794#144#0(6@68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m319075626#171#0#171#0#0"0(0#0#68"/Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m8616653120#1835"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/DetailTableViewController.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/DetailTableViewController.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/GTMNSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155883.598070
+e319155883.819930
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/GTMNSString+HTML.o
+x/Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m319155883#319155883#0(0"0(0#0#59"/Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m8606375360#1817"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/GTMNSString+HTML.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/GTMNSString+HTML.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedInfo.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155882.622456
+e319155882.762505
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedInfo.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m319155882#319155882#0(0"0(0#0#53"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m8617004992#1805"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedInfo.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedInfo.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedItem.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155882.762605
+e319155882.961557
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedItem.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m319155882#319155882#0(0"0(0#0#53"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m8609601280#1805"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedItem.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedItem.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParser.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155882.249665
+e319155883.349509
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParser.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m319155882#319155883#0(0"0(0#0#55"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m8606552992#1809"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParser.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParser.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParserAppDelegate.o /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155882.122750
+e319155882.249570
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParserAppDelegate.o
+x/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m319155882#319155882#0(0"0(0#0#66"/Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m8615328736#1831"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/MWFeedParserAppDelegate.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/MWFeedParserAppDelegate.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSDate+InternetDateTime.o /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155883.820034
+e319155883.982513
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSDate+InternetDateTime.o
+x/Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m319155883#319155883#0(0"0(0#0#66"/Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m8616885376#1831"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/NSDate+InternetDateTime.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSDate+InternetDateTime.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+HTML.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155883.622354
+e319155883.962657
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+HTML.o
+x/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m: In function '-[NSString(HTML) flattenHTML]':
+o/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m:332: warning: control reaches end of non-void function
+lSLF07#2@64"Compile /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m319155883#319155883#0(215"/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m: In function '-[NSString(HTML) flattenHTML]':/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m:332: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function319155883#103#112#0(6@56"/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m318547194#332#0#332#0#40"control reaches end of non-void function0(0#0#56"/Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m8602971616#1811"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/NSString+HTML.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+HTML.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+XMLEntities.o /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155882.961654
+e319155883.041068
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+XMLEntities.o
+x/Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m319155882#319155883#0(0"0(0#0#63"/Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m8602986528#1825"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/NSString+XMLEntities.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/NSString+XMLEntities.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Reachability.o /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155883.982613
+e319155884.380840
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Reachability.o
+x/Users/datlap/Desktop/vne_iphone/Classes/Reachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m319155883#319155884#0(0"0(0#0#55"/Users/datlap/Desktop/vne_iphone/Classes/Reachability.m8606359520#1809"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/Reachability.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Reachability.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/RootViewController.o /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155883.041189
+e319155883.597973
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/RootViewController.o
+x/Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m319155883#319155883#0(0"0(0#0#61"/Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m8600474048#1821"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/Classes/RootViewController.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/main.o /Users/datlap/Desktop/vne_iphone/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155882.051226
+e319155882.122633
+r1
+xCompileC
+xbuild/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/main.o
+x/Users/datlap/Desktop/vne_iphone/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/datlap/Desktop/vne_iphone/main.m319155882#319155882#0(0"0(0#0#39"/Users/datlap/Desktop/vne_iphone/main.m8616910720#1785"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch -c /Users/datlap/Desktop/vne_iphone/main.m -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/datlap/Desktop/vne_iphone/MainWindow.xib
+s319155874.190486
+e319155875.820624
+r1
+xCompileXIB
+x/Users/datlap/Desktop/vne_iphone/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319155874#319155875#0(0"0(0#0#47"/Users/datlap/Desktop/vne_iphone/MainWindow.xib8615582976#533"    cd /Users/datlap/Desktop/vne_iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/MainWindow.nib /Users/datlap/Desktop/vne_iphone/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/datlap/Desktop/vne_iphone/RootViewController.xib
+s319155874.191271
+e319155875.969667
+r1
+xCompileXIB
+x/Users/datlap/Desktop/vne_iphone/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib319155874#319155875#0(0"0(0#0#55"/Users/datlap/Desktop/vne_iphone/RootViewController.xib8615325792#549"    cd /Users/datlap/Desktop/vne_iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/RootViewController.nib /Users/datlap/Desktop/vne_iphone/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Default.png Default.png
+s319155876.337993
+e319155876.448827
+r1
+xCopyPNGFile
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Default.png
+xDefault.png
+lSLF07#2@77"CopyPNGFile build/Distribution-iphoneos/Vnexpress.app/Default.png Default.png319155876#319155876#0(0"0(0#0#44"/Users/datlap/Desktop/vne_iphone/Default.png8602748448#553"    cd /Users/datlap/Desktop/vne_iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/datlap/Desktop/vne_iphone/Default.png /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Default.png0#
+
+CCopyPNGFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Icon.png Icon.png
+s319155875.820832
+e319155876.378224
+r1
+xCopyPNGFile
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Icon.png
+xIcon.png
+lSLF07#2@71"CopyPNGFile build/Distribution-iphoneos/Vnexpress.app/Icon.png Icon.png319155875#319155876#0(0"0(0#0#41"/Users/datlap/Desktop/vne_iphone/Icon.png8602724896#547"    cd /Users/datlap/Desktop/vne_iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/datlap/Desktop/vne_iphone/Icon.png /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Icon.png0#
+
+CCopyPlistFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Data.plist Data.plist
+s319155875.969759
+e319155876.335611
+r1
+xCopyPlistFile
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Data.plist
+xData.plist
+lSLF07#2@15"Copy Data.plist319155875#319155876#0(0"0(0#0#43"/Users/datlap/Desktop/vne_iphone/Data.plist8621102592#368"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Data.plist --outdir /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app0#
+
+CCpResource build/Distribution-iphoneos/Vnexpress.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319155874.125357
+e319155874.190384
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Vnexpress.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319155874#319155874#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8620580352#512"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app0#
+
+CCpResource build/Distribution-iphoneos/Vnexpress.app/styles.css styles.css
+s319155876.337217
+e319155876.343842
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Vnexpress.app/styles.css
+xstyles.css
+lSLF07#2@15"Copy styles.css319155876#319155876#0(0"0(0#0#43"/Users/datlap/Desktop/vne_iphone/styles.css8605095520#466"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/datlap/Desktop/vne_iphone/styles.css /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app0#
+
+CCpResource build/Distribution-iphoneos/Vnexpress.app/testimage.jpg testimage.jpg
+s319155876.335710
+e319155876.362047
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Vnexpress.app/testimage.jpg
+xtestimage.jpg
+lSLF07#2@18"Copy testimage.jpg319155876#319155876#0(0"0(0#0#46"/Users/datlap/Desktop/vne_iphone/testimage.jpg8607812288#469"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/datlap/Desktop/vne_iphone/testimage.jpg /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app0#
+
+CCreateUniversalBinary /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress normal "armv6 armv7"
+s319155884.446733
+e319155884.450412
+r1
+xCreateUniversalBinary
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress
+xnormal
+xarmv6 armv7
+lSLF07#2@94"CreateUniversalBinary build/Distribution-iphoneos/Vnexpress.app/Vnexpress normal "armv6 armv7"319155884#319155884#0(0"0(0#0#44"/Users/datlap/Desktop/vne_iphone/armv6 armv78620582656#531"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress -output /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress0#
+
+CGenerateDSYMFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app.dSYM /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress
+s319155884.450498
+e319155884.525069
+r1
+xGenerateDSYMFile
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app.dSYM
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress
+lSLF07#2@115"GenerateDSYMFile build/Distribution-iphoneos/Vnexpress.app.dSYM build/Distribution-iphoneos/Vnexpress.app/Vnexpress319155884#319155884#0(0"0(0#0#84"/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress8616425120#364"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Vnexpress -o /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app.dSYM0#
+
+CLd /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress normal armv6
+s319155882.530638
+e319155882.622352
+r1
+xLd
+x/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress
+xnormal
+xarmv6
+lSLF07#2@128"Link /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress319155882#319155882#0(0"0(0#0#0"8620758208#900"    cd /Users/datlap/Desktop/vne_iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -filelist /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv6/Vnexpress0#
+
+CLd /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress normal armv7
+s319155884.380936
+e319155884.446630
+r1
+xLd
+x/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress
+xnormal
+xarmv7
+lSLF07#2@128"Link /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress319155884#319155884#0(0"0(0#0#0"8621559200#900"    cd /Users/datlap/Desktop/vne_iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -filelist /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Objects-normal/armv7/Vnexpress0#
+
+CProcessInfoPlistFile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Info.plist Vnexpress-Info.plist
+s319155874.153255
+e319155874.156744
+r1
+xProcessInfoPlistFile
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Info.plist
+xVnexpress-Info.plist
+lSLF07#2@28"Process Vnexpress-Info.plist319155874#319155874#0(0"0(0#0#53"/Users/datlap/Desktop/vne_iphone/Vnexpress-Info.plist8622068896#567"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Vnexpress-Info.plist -genpkginfo /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/ResourceRules.plist -o /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/Info.plist0#
+
+CProcessPCH /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch.gch Vnexpress_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319155876.448959
+e319155880.234318
+r1
+xProcessPCH
+x/var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch.gch
+xVnexpress_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Vnexpress_Prefix.pch319155876#319155880#0(0"0(0#0#53"/Users/datlap/Desktop/vne_iphone/Vnexpress_Prefix.pch8621820224#1680"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv6 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/datlap/Desktop/vne_iphone/Vnexpress_Prefix.pch -o /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-ersqabxhhbstvmexoegnmlxnfeoh/Vnexpress_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch.gch Vnexpress_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319155876.449976
+e319155880.124122
+r1
+xProcessPCH
+x/var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch.gch
+xVnexpress_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Vnexpress_Prefix.pch319155876#319155880#0(0"0(0#0#53"/Users/datlap/Desktop/vne_iphone/Vnexpress_Prefix.pch8621098144#1680"    cd /Users/datlap/Desktop/vne_iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-generated-files.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-own-target-headers.hmap -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-all-target-headers.hmap -iquote /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress-project-headers.hmap -F/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos -I/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/include -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources/armv7 -I/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/datlap/Desktop/vne_iphone/Vnexpress_Prefix.pch -o /var/folders/yA/yAyxRJKFESCnsFFasxviJk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vnexpress_Prefix-gmezqvcfrzzeaierqbdfhhszoqdf/Vnexpress_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/datlap/Library/MobileDevice/Provisioning Profiles/2AB04A70-C081-4EA6-81AC-73937DA28720.mobileprovision" /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/embedded.mobileprovision
+s319155884.525171
+e319155884.526549
+r1
+xProcessProductPackaging
+x/Users/datlap/Library/MobileDevice/Provisioning Profiles/2AB04A70-C081-4EA6-81AC-73937DA28720.mobileprovision
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/datlap/Library/MobileDevice/Provisioning Profiles/2AB04A70-C081-4EA6-81AC-73937DA28720.mobileprovision" build/Distribution-iphoneos/Vnexpress.app/embedded.mobileprovision319155884#319155884#0(0"0(0#0#99"/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/embedded.mobileprovision8608151776#421"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/datlap/Library/MobileDevice/Provisioning Profiles/2AB04A70-C081-4EA6-81AC-73937DA28720.mobileprovision" -o /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent
+r0
+
+CProcessProductPackaging /Users/datlap/Desktop/vne_iphone/Entitlements.plist /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent
+s319155884.529942
+e319155884.531611
+r1
+xProcessProductPackaging
+x/Users/datlap/Desktop/vne_iphone/Entitlements.plist
+x/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent
+lSLF07#2@118"ProcessProductPackaging Entitlements.plist build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent319155884#319155884#0(0"0(0#0#108"/Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent8616613952#396"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Users/datlap/Desktop/vne_iphone/Entitlements.plist -entitlements -format xml -o /Users/datlap/Desktop/vne_iphone/build/Vnexpress.build/Distribution-iphoneos/Vnexpress.build/Vnexpress.xcent0#
+
+CTouch /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+s319155884.526613
+e319155884.529855
+r1
+xTouch
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+lSLF07#2@80"Touch /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app319155884#319155884#0(0"0(0#0#0"8605973408#261"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app0#
+
+CValidate /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+s319155885.063181
+e319155885.521602
+r1
+xValidate
+x/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app
+o2011-02-11 14:24:45.325 Validation[77700:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@50"Validate build/Distribution-iphoneos/Vnexpress.app319155885#319155885#0(100"2011-02-11 14:24:45.325 Validation[77700:607] *** Warning: Defaulting to the standard codesign tool0(0#0#74"/Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app8620715424#370"    cd /Users/datlap/Desktop/vne_iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/datlap/Desktop/vne_iphone/build/Distribution-iphoneos/Vnexpress.app0#
+

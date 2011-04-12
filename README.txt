@@ -1,0 +1,1 @@
+this is a simple news iphone app built on top of MWFeedParser. It takes as input an xml file (consisting of news articles), parses the articles and display them as rows in a table. It works offline and has basic share functionalities. 
